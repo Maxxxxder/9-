@@ -1,0 +1,238 @@
+body {
+
+  margin: 0;
+
+  background-color: #FAF8DA;
+
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+
+
+
+.primary-header {
+
+  text-align: center;
+
+}
+
+
+
+.main-heading {
+
+  font-size: 70px;
+
+  color: #205D76;
+
+}
+
+
+
+.town-preview {
+
+  width: 650px;
+
+  border-radius: 5px;
+
+  border: 2px solid;
+
+  border-color: #000;
+}
+
+/* end header styling */
+
+
+
+/* begin main styling */
+
+.store-section {
+
+  display: flex;
+
+  display: -webkit-flex;
+
+  margin: 50px auto;
+
+  width: 450px;
+
+}
+
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  color: #FAF8DA;
+}
+
+.overlay h2 {
+  text-align: center;
+}
+
+.overlay:hover {
+  color: #000;
+  transition: all 5s ease;
+}
+
+.building {
+
+  width: 200px;
+
+  border-radius: 5px;
+
+  border: 2px solid;
+
+  border-color: #F7DC6F;
+}
+
+.building:hover {
+  transform: scale(1.2) rotate(5deg);
+   transition: all .5s;
+}
+
+.store-details {
+
+  margin-left: 30px;
+
+}
+
+
+
+.category-heading {
+
+  color: #0080FF;
+
+  font-size: 30px;
+
+}
+
+.category-heading:hover {
+  color: #000080;
+  transition: color 0.3s ease;
+}
+
+.store-list {
+
+  padding-left: 15px;
+
+  color: #FFC122; /* this will make sure the bullet points turn dark yellow! */
+
+}
+
+
+
+.store-name {
+
+  margin-bottom: 10px; /* adds a bit of space at the bottom of each list item */
+
+}
+
+
+
+.store-link {
+
+  color: #85C7FF;
+
+  font-size: 20px;
+
+  text-decoration: none;
+
+  transition: color 0.3s linear;
+}
+
+.card {
+   max-width: 500px;
+   margin: 10px;
+   padding: 500px;
+   text-shadow: grey;
+   background-color: #fff;
+   color: red;
+   border: 3px solid red;
+   border-radius: 5px;
+   left: 50%;
+   margin-left: -50px;
+ }
+
+.info {
+  display: flex;
+  justify-content: center;
+  padding: 70px;
+}
+
+.alertinfo {
+ display: flex;
+ height: 1040px;
+ border: 2px;
+ border-radius: 10px;
+}
+.store-link:hover {
+  width: 200px;
+  background-color: #5DADE2;
+  text-align: center;
+  padding: 4px;
+  border-radius: 5px;
+  color: #000080;
+}
+
+
+
+
+.primary-footer {
+
+  padding: 2px;
+
+  background-color: #FFC122;
+
+  text-align: center;
+
+}
+
+
+
+.created-by {
+
+  color: #FFFFFF;
+
+  font-size: 20px;
+
+}
+
+a {
+  text-decoration: none;
+}
+.facebook {
+   height: 40px;
+   border-radius: 50%;
+   border: 2px solid;
+   border-color: #000;
+ }
+
+.youtube {
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid;
+  border-color: #000;
+}
+
+.gitthub {
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid;
+  border-color: #000;
+}
+
+.facebook:hover {
+  transform: scale(1.2) rotate(5deg);
+  transition: all .5s;
+}
+
+.youtube:hover {
+ transform: scale(1.2) rotate(5deg);
+ transition: all .5s;
+}
+
+.gitthub:hover{
+ transform: scale(1.2) rotate(5deg);
+ transition: all .5s;
+}
